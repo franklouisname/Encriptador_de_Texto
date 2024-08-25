@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+
+:root{
+    --color-primario:#FFEEA9;
+    --color-secundario: #0A3871 ;
+    --color-terceario: white;
+    --color-cuaternario:#d8dfe8;
+   
+    --fuente-Montserrat:"Montserrat", sans-serif;
+    --fuente-kroma:'kroma one', sans serif;
+    
+   }
+
+
+
+*{
+    background-color: var(--color-primario);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+}
+
+.logo{
+
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text_area{
+border: none;
+color:var(--color-secundario);
+margin-top: 90px;
+text-transform: lowercase;
+font-family: var(--fuente-kroma);
+}
+
+::placeholder {  color:var(--color-secundario); }
+
+.text_area:focus{
+
+outline: none;
+
+}
+
+.mensaje{
+background:var(--color-terceario);
+background-image: url("/assest/Lupa.png");
+background-repeat: no-repeat;
+border: none;
+border-radius: 24px;
+color: var(--color-secundario);
+margin-left: 98px;
+margin-top: 20px;
+padding-left: 20px;
+position: fixed;
+font-family: var(--fuente-kroma);
+
+}
+
+.mensaje:focus {
+outline: none;
+
+}
+
+.botones{
+
+display: flex;
+margin-top: 18px;
+
+}
+
+.btn-desencriptar{
+
+    background:var(--color-cuaternario);
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color:var(--color-secundario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;    
+    font-family: var(--fuente-Montserrat);
+}
+
+.btn-encriptar{
+    background-color:var(--color-secundario);
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color: var(--color-terceario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px; 
+    font-family: var(--fuente-Montserrat);
+
+}
+
+.copiar{
+    background-color:var(--color-secundario);
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color: var(--color-terceario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;    
+    font-family: var(--fuente-Montserrat);
+
+}
+
+.Informacion{
+color: #495057;
+font-size: 18px;
+
+}
+
